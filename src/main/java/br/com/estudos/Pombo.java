@@ -13,7 +13,7 @@ public class Pombo extends Ave {
 
     @Override
     public void mover() {
-        System.out.println(getNome() + "está procurando um alvo para alvejar.");
+        System.out.println(getNome() + " está procurando um alvo para alvejar.");
     }
 
 }

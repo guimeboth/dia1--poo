@@ -13,7 +13,7 @@ public class Cachorro extends Mamifero {
 
     @Override
     public void mover() {
-        System.out.println(getNome() + "está correndo atrás do rabo.");
+        System.out.println(getNome() + " está correndo atrás do rabo.");
     }
 
 }

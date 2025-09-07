@@ -21,5 +21,5 @@ Este projeto demonstra os quatro pilares da Programação Orientada a Objetos (P
 
 ### Execução
 ```bash
-javac zoo/*.java
-java zoo.Main
+javac javac .\br\com\estudos\*.java
+java java br.com.estudos.Main
