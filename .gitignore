@@ -1,2 +1,5 @@
 # Arquivos compilados Java
 *.class
+
+# Diretórios de build
+/target/
