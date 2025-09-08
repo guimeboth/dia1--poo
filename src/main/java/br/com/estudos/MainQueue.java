@@ -14,15 +14,13 @@ public class MainQueue {
         queue.offer(new Gato("Alina", 4));
 
         imprimirAtendimentos(queue);
-        System.out.println("Fim dos atendimentos!");
     }
 
     private static <T extends Animal> void imprimirAtendimentos(Queue<T> queue) {
-        System.out.println("Iniciando atendimentos com " + queue.peek().toString());
-        queue.poll();
-        queue.forEach(a -> {
-            System.out.println("Atendendo " + a.toString());
-            queue.poll();
-        });
+        System.out.println("Iniciando atendimentos");
+        while (!queue.isEmpty()) {
+            System.out.println("Paciente: " + queue.poll().toString());
+        }
+        System.out.println("Fim de atendimentos!");
     }
 }

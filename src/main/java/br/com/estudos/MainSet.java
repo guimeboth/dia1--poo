@@ -11,10 +11,10 @@ public class MainSet {
         animais.add(new Gato("Clóvis", 7));
         animais.add(new Gato("Clóvis", 7));
 
-        imprimirAnimaIS(animais);
+        imprimirAnimais(animais);
     }
 
-    private static <T extends Animal> void imprimirAnimaIS(Set<T> animais) {
+    private static <T extends Animal> void imprimirAnimais(Set<T> animais) {
         animais.forEach(System.out::println);
     }
 }
