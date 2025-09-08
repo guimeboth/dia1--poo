@@ -2,8 +2,7 @@
 
 Este projeto demonstra os quatro pilares da Programação Orientada a Objetos (POO) em Java(Encapsulamento, Herança, Polimorfismo e Abstração).
 
-### Pilares aplicados:
-
+## 📌 Dia 1 – Pilares da Programação Orientada a Objetos (POO):
 1. **Encapsulamento**
     - Esconder os detalhes internos de uma classe e expor apenas o necessário.
     - Atributos 'nome' e 'idade' são privados em 'Animal' e acessados via getters.
@@ -23,3 +22,17 @@ Este projeto demonstra os quatro pilares da Programação Orientada a Objetos (P
 ```bash
 javac javac .\br\com\estudos\*.java
 java java br.com.estudos.Main
+
+```
+
+## 📌 Dia 2 – Collections e Generics:
+1. **List**
+    - Estrutura de dados que armazena elementos, podem ser ordenados e duplicados.
+2. **Set**
+    - Estrutura de dados que armazena elementos, não garante ordem e não permite duplicados.
+3. **Map**
+    - Estrutura de dados que armazena pares de chave-valor, onde cada chave é única.
+4. **Queue**
+    - Estrutura de dados que armazena elementos seguindo o princípio FIFO(First-In, First-Out) ou "Primeiro a Entrar, Primeiro a Sair".
+5. **Generics**
+    - Permitem que você escreva classes, interfaces e métodos que funcionam com qualquer tipo, mas de forma segura em tempo de compilação.
