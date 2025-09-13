@@ -11,7 +11,7 @@ Este projeto demonstra os quatro pilares da Programação Orientada a Objetos (P
     - 'Mamifero' e 'Ave' herdam 'Animal'.
     - 'Cachorro' e 'Gato' herdam de 'Mamifero' e 'Pombo' e 'Galinha' herdam de 'Ave'.
 3. **Polimorfismo**
-    - Capacidade de um mesmo método se comportar de formas diferentes.
+    - Capacidade de um mesmo objeto ou método se comportar de formas diferentes.
     - Método 'emitirSom()' e 'mover()' são sobrescritos em cada animal.
     - Método 'mover()' sobrescritos em situações específicas como as aves que voam nesse método.
 4. **Abstração**
