@@ -36,3 +36,13 @@ java java br.com.estudos.Main
     - Estrutura de dados que armazena elementos seguindo o princípio FIFO(First-In, First-Out) ou "Primeiro a Entrar, Primeiro a Sair".
 5. **Generics**
     - Permitem que você escreva classes, interfaces e métodos que funcionam com qualquer tipo, mas de forma segura em tempo de compilação.
+
+### Execução
+```bash
+javac javac .\br\com\estudos\*.java
+java java br.com.estudos.MainList
+java java br.com.estudos.MainMap
+java java br.com.estudos.MainQueue
+java java br.com.estudos.MainSet
+
+```
