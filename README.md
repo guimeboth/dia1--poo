@@ -46,3 +46,39 @@ java java br.com.estudos.MainQueue
 java java br.com.estudos.MainSet
 
 ```
+
+
+## 📌 Dia 3 - Streams e Lambdas
+1. **Streams API**
+    - Pipeline de operações para trabalhar com coleções:
+        - filter → filtra elementos.
+        - map → transforma elementos.
+        - sorted → ordena.
+        - forEach → percorre.
+        - collect → retorna em lista, set, map.
+        - reduce → reduz a um único valor (ex: soma, concatenação).
+2. **Lambda**
+    - Função anônima: (param) -> { corpo }, introduzidas no Java 8 e servem, principalmente, para facilitar a programação funcional.
+
+### 🔹 Exemplo sem vs com Streams
+```java
+// Sem streams
+for (Animal a : animais) {
+    if (a instanceof Gato) {
+        System.out.println(a);
+    }
+}
+
+// Com streams
+animais.stream()
+       .filter(a -> a instanceof Gato)
+       .forEach(System.out::println);
+
+```
+
+### Execução
+```bash
+javac javac .\br\com\estudos\*.java
+java java br.com.estudos.MainStream
+
+```

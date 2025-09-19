@@ -19,9 +19,11 @@ public class ListTest {
         Cachorro zeus = new Cachorro("Zeus", 2);
         Gato olga = new Gato("Olga", 6);
         Gato alina = new Gato("Alina", 4);
+        Gato clovis = new Gato("Clóvis", 8);
+        Gato rebeca = new Gato("Rebeca", 7);
 
         // Act (executa ação)
-        List<Animal> animais = List.of(zeus, olga, alina);
+        List<Animal> animais = List.of(zeus, olga, alina, clovis, rebeca);
 
         // Assert (valida resultado)
         assertEquals(List.of(alina, olga, zeus),
