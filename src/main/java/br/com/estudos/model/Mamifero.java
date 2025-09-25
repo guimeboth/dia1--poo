@@ -1,4 +1,4 @@
-package br.com.estudos;
+package br.com.estudos.model;
 
 public abstract class Mamifero extends Animal {
     public Mamifero(String nome, int idade) {

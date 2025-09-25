@@ -1,3 +1,4 @@
+package br.com.estudos.collections.queue;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -7,9 +8,9 @@ import java.util.Queue;
 
 import org.junit.jupiter.api.Test;
 
-import br.com.estudos.Animal;
-import br.com.estudos.Cachorro;
-import br.com.estudos.Gato;
+import br.com.estudos.model.Animal;
+import br.com.estudos.model.Cachorro;
+import br.com.estudos.model.Gato;
 
 public class QueueTest {
 

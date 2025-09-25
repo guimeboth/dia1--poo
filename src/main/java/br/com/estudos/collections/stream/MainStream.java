@@ -1,10 +1,14 @@
-package br.com.estudos;
+package br.com.estudos.collections.stream;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.OptionalDouble;
 import java.util.stream.Collectors;
+
+import br.com.estudos.model.Animal;
+import br.com.estudos.model.Cachorro;
+import br.com.estudos.model.Gato;
 
 public class MainStream {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package br.com.estudos;
+package br.com.estudos.model;
 
 public class Gato extends Mamifero {
 

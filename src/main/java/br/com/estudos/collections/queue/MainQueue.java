@@ -1,7 +1,11 @@
-package br.com.estudos;
+package br.com.estudos.collections.queue;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
+
+import br.com.estudos.model.Animal;
+import br.com.estudos.model.Cachorro;
+import br.com.estudos.model.Gato;
 
 public class MainQueue {
     public static void main(String[] args) {

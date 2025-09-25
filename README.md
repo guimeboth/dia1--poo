@@ -51,12 +51,12 @@ java java br.com.estudos.MainSet
 ## 📌 Dia 3 - Streams e Lambdas
 1. **Streams API**
     - Pipeline de operações para trabalhar com coleções:
-        - filter → filtra elementos.
-        - map → transforma elementos.
-        - sorted → ordena.
-        - forEach → percorre.
-        - collect → retorna em lista, set, map.
-        - reduce → reduz a um único valor (ex: soma, concatenação).
+        🔹 filter → filtra elementos.
+        🔹 map → transforma elementos.
+        🔹 sorted → ordena.
+        🔹 forEach → percorre.
+        🔹 collect → retorna em lista, set, map.
+        🔹 reduce → reduz a um único valor (ex: soma, concatenação).
 2. **Lambda**
     - Função anônima: (param) -> { corpo }, introduzidas no Java 8 e servem, principalmente, para facilitar a programação funcional.
 
@@ -82,3 +82,18 @@ javac javac .\br\com\estudos\*.java
 java java br.com.estudos.MainStream
 
 ```
+
+### 📌 Dia 4 – Exceptions e Optional
+1. **Exceptions**
+    - Uma exception é um evento inesperado que ocorre durante a execução do programa.
+    - São divididas entre Checked e Unchecked:
+     🔹 Checked → obrigam tratamento (IOException, SQLException).
+     🔹 Unchecked (Runtime) → não obrigam tratamento (NullPointerException, IllegalArgumentException).
+
+2. **Optional**
+    - Representa um valor que pode existir ou não (substitui null).
+    - Métodos principais:
+     🔹 of, ofNullable, empty.
+     🔹 isPresent, ifPresent.
+     🔹 orElse, orElseGet, orElseThrow.
+     🔹 map, flatMap.

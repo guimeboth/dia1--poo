@@ -1,3 +1,5 @@
+package br.com.estudos.collections.map;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -7,9 +9,9 @@ import java.util.Map;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import br.com.estudos.Animal;
-import br.com.estudos.Cachorro;
-import br.com.estudos.Gato;
+import br.com.estudos.model.Animal;
+import br.com.estudos.model.Cachorro;
+import br.com.estudos.model.Gato;
 
 public class MapTest {
 

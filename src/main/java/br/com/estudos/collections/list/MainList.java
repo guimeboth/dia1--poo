@@ -1,8 +1,12 @@
-package br.com.estudos;
+package br.com.estudos.collections.list;
 
 import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
+
+import br.com.estudos.model.Animal;
+import br.com.estudos.model.Cachorro;
+import br.com.estudos.model.Gato;
 
 public class MainList {
     public static void main(String[] args) {

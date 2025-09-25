@@ -1,3 +1,5 @@
+package br.com.estudos.collections.list;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Comparator;
@@ -6,9 +8,9 @@ import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import br.com.estudos.Animal;
-import br.com.estudos.Cachorro;
-import br.com.estudos.Gato;
+import br.com.estudos.model.Animal;
+import br.com.estudos.model.Cachorro;
+import br.com.estudos.model.Gato;
 
 public class ListTest {
 

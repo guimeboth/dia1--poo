@@ -1,7 +1,11 @@
-package br.com.estudos;
+package br.com.estudos.collections.set;
 
 import java.util.HashSet;
 import java.util.Set;
+
+import br.com.estudos.model.Animal;
+import br.com.estudos.model.Cachorro;
+import br.com.estudos.model.Gato;
 
 public class MainSet {
     public static void main(String[] args) {
