@@ -39,11 +39,11 @@ java java br.com.estudos.Main
 
 ### Execução
 ```bash
-javac javac .\br\com\estudos\*.java
-java java br.com.estudos.MainList
-java java br.com.estudos.MainMap
-java java br.com.estudos.MainQueue
-java java br.com.estudos.MainSet
+javac .\br\com\estudos\*.java
+java br.com.estudos.MainList
+java br.com.estudos.MainMap
+java br.com.estudos.MainQueue
+java br.com.estudos.MainSet
 
 ```
 
@@ -97,3 +97,8 @@ java java br.com.estudos.MainStream
      🔹 isPresent, ifPresent.
      🔹 orElse, orElseGet, orElseThrow.
      🔹 map, flatMap.
+
+### Execução
+```bash
+javac br/com/estudos/*.java
+java br.com.estudos.optional.MainOptional
