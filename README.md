@@ -102,3 +102,51 @@ java java br.com.estudos.MainStream
 ```bash
 javac br/com/estudos/*.java
 java br.com.estudos.optional.MainOptional
+
+```
+
+### 📌 Dia 5 – Concorrência em Java (Executors, CompletableFuture e Paralelismo)
+1. **Thread**
+    - Unidade básica de execução dentro de um processo.
+    - Cada aplicação Java inicia com a thread principal (main).
+
+2. **ExecutorService**
+    - Facilita o gerenciamento de pools de threads.
+    - Evita criação/destruição manual de threads com new Thread().
+    
+    Métodos principais**:
+    🔹 submit(Runnable/Callable) → executa tarefa.
+    🔹 shutdown() → encerra o pool após concluir tarefas.
+    
+    Tipos de pools:
+    🔹 newFixedThreadPool(n) → número fixo de threads.
+    🔹 newSingleThreadExecutor() → apenas uma thread.
+    🔹 newCachedThreadPool() → cria threads conforme demanda.
+
+3. **Callable e Future**
+    - Callable<T> retorna um valor.
+    - Future<T> representa o resultado de uma execução assíncrona.
+    - O método get() bloqueia até a conclusão da tarefa.
+
+4. **CompletableFuture**
+    - Evolução do Future, com suporte a programação reativa e não bloqueante.
+    - Métodos principais:
+    🔹 supplyAsync(Supplier) → executa tarefa em outra thread e retorna valor.
+    🔹 thenApply(Function) → transforma o resultado.
+    🔹 thenAccept(Consumer) → consome o resultado final.
+    🔹 thenCombine() → combina dois resultados.
+    🔹 allOf() / anyOf() → aguarda múltiplas execuções.
+    🔹 exceptionally() → trata erros de forma elegante.
+
+5. **Parallel Streams**
+    - Permite processamento paralelo de coleções usando múltiplas threads.
+    - Utiliza internamente o ForkJoinPool.
+    - Ideal para tarefas CPU-bound (cálculos pesados).
+    - Evite em tarefas I/O-bound (como chamadas de rede ou disco).
+
+6. **Boas Práticas**
+    - Sempre finalize pools com shutdown().
+    - Prefira CompletableFuture para fluxos assíncronos complexos.
+    - Evite join() ou get() fora de contextos controlados.
+    - Cuide com estado compartilhado — use objetos imutáveis.
+    - Monitore o número de threads e ajuste o pool conforme a carga.
